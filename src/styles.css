@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    display: flex;
+    justify-content: baseline;
+    min-height: 88vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.bg-color {
+    background-color: #37474f;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-red {
+    color: #d00000;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.
+
+.rounded {
+    border-radius: 1rem;
+}
+
+.oposite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
