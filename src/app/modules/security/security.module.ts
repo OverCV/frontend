@@ -3,15 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { SecurityRoutingModule } from './security-routing.module';
 import { LoginComponent } from './login/login.component';
-import { ChangePasswordComponent } from './change-password/change-password.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
+import { RegisterComponent } from './register/register.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 
 @NgModule({
   declarations: [
-    LoginComponent,
-    ChangePasswordComponent,
-    ResetPasswordComponent
+    ResetPasswordComponent,
+    RegisterComponent,
+    ChangePasswordComponent
   ],
   imports: [
     CommonModule,

@@ -1,6 +1,7 @@
+
 <div class="container">
 
-    <h3>Login</h3>
+    <h3 class="text-white">Login</h3>
 
     <!-- Campos -->
 
@@ -26,14 +27,19 @@
     </div>
 
     <!-- Botones -->
-    
-
 
     <div class="oposite">
-        <!-- ?! routerLink ?! -->
-        <a href="/reset-password" class="waves-effect waves-light btn"><i class="material-icons left">last_page</i>Olvide mi contraseña</a>
-        <!-- ?! routerLink ?! -->
-        <a  class="waves-effect waves-light btn"><i class="material-icons left">next_week</i>Ingresar</a>
+
+        <a routerLink="/login/reset-password" class="waves-effect waves-light btn">
+            <i class="material-icons left">last_page</i>
+            Olvide mi contraseña
+        </a>
+
+        <a routerLink="/login/access" class="waves-effect waves-light btn">
+            <i class="material-icons left">next_week</i>
+            Ingresar
+        </a>
+
     </div>
 
 

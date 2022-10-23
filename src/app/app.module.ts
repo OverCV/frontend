@@ -8,6 +8,8 @@ import { FooterComponent } from './public/master-page/footer/footer.component';
 import { NotFoundComponent } from './public/errors/not-found/not-found.component';
 import { InternalServerErrorComponent } from './public/errors/internal-server-error/internal-server-error.component';
 import { HomeComponent } from './public/master-page/home/home.component';
+import { LoginComponent } from './modules/security/login/login.component';
+import { ResetPasswordComponent } from './modules/security/reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { HomeComponent } from './public/master-page/home/home.component';
     FooterComponent,
     NotFoundComponent,
     InternalServerErrorComponent,
+    LoginComponent,
+    ResetPasswordComponent,
     HomeComponent
   ],
   imports: [
