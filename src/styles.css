@@ -7,6 +7,7 @@ body {
     flex-direction: column;
 }
 
+
 main {
     flex: 1 0 auto;
 }
@@ -30,11 +31,23 @@ main {
 .
 
 .rounded {
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .oposite {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.p-2 {
+    padding: 2rem;
 }

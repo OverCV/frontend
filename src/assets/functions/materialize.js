@@ -21,3 +21,16 @@ document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.autocomplete')
     var instances = M.Autocomplete.init(elems, {})
 })
+
+/**
+ * Funcionalidad de desplegables.
+**/
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.dropdown-trigger')
+    var instances = M.Dropdown.init(elems, {}) /* Antes: M.Dropdown.init(elems, options) */
+})
+
+/**
+ * Funcionalidad de pestañas o tabs.
+**/
+var instance = M.Tabs.init(el, options)

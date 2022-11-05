@@ -5,13 +5,13 @@
 
     <!-- Campos -->
 
-    <div class="row blue-grey darken-3 rounded">
+    <div class="row rounded grey darken-4">
         <div class="col s12">
             <div class="row text-white">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">person</i>
-                    <input type="text" id="autocomplete-input" class="autocomplete text-white">
-                    <label for="autocomplete-input">Usuario</label>
+                    <input type="text" id="user" class="autocomplete text-white">
+                    <label for="user">Usuario</label>
                 </div>
             </div>
         </div>
@@ -19,8 +19,8 @@
             <div class="row text-white">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">short_text</i>
-                    <input type="text" id="autocomplete-input" class="autocomplete text-white">
-                    <label for="autocomplete-input">Contraseña</label>
+                    <input type="text" id="pass" class="autocomplete text-white">
+                    <label for="pass">Contraseña</label>
                 </div>
             </div>
         </div>
@@ -30,12 +30,12 @@
 
     <div class="oposite">
 
-        <a routerLink="/login/reset-password" class="waves-effect waves-light btn">
+        <a routerLink="/security/reset-password" class="waves-effect btn red darken-1">
             <i class="material-icons left">last_page</i>
             Olvide mi contraseña
         </a>
 
-        <a routerLink="/login/access" class="waves-effect waves-light btn">
+        <a routerLink="./access" class="waves-effect btn red darken-1">
             <i class="material-icons left">next_week</i>
             Ingresar
         </a>

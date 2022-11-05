@@ -18,8 +18,6 @@ import { ResetPasswordComponent } from './modules/security/reset-password/reset-
     FooterComponent,
     NotFoundComponent,
     InternalServerErrorComponent,
-    LoginComponent,
-    ResetPasswordComponent,
     HomeComponent
   ],
   imports: [
